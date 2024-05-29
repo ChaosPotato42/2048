@@ -2,7 +2,7 @@
 
 Obfuscated 2048 Clone
 
-Controls are `wasd` to move and `q` to quit
+Controls are `wasd` to move, `q` to quit and `r` to reset
 
 To build, run
 ```
