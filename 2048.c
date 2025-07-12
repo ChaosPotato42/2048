@@ -1,39 +1,39 @@
-       typedef unsigned z ;typedef                                                  unsigned char  y;                                                           typedef struct{                                     z a,b,c,d;y e,f[32];z g,h             
-       ;}x;typedef  char A;typedef                                                  void* B; typedef                                                            struct{A a[216];}                                   C;C* fopen(A*,A*);typedef             
-(*D)() ;volatile a[5] [4]={{ },{},{ },{},{                                   4022250974u}},b[4]={0,0,4022250973u                                             ,1},c,d,e[16],f,g                                   ,h;x i,j ;D k[4] ;B l;C* m;n(){          
-return d<4;}o(){return d>=0;}p(){return c<                                   4;} q( ){ return c >=0 ;} A* r=                                                 "\xe2\x96\x88\0 \x80\x84"                           ;A s[18][ 20]={"","\x1b[38;2;2"          
-"39;227;222m","\x1b[38;2;224;197;152m","\x1b"                            "[38;2;239;178;123m","\x1b[38;2;247;1"                                             "50;99m","\x1b[3"                               "8;2;247;125;99m","\x1b[38;2;247;93;58m"     
-,"\x1b[38;2;239;206;115m","\x1b[38;2;239;202"                            ";99m","\x1b[38;2;239;198;82m","\x1b["                                             "38;2;239;198;66m"                              ,"\x1b[38;2;239;194;49m" ,"\x1b[38;2;"       
-"107;2"                        "02;16m","\x1b"                       "[38;2;99;190;8m"          , "\x1b[38;2;"                                          "90;18"   "6;0m"  ,                             "\x1b[38;2;82;17"              "0;0m","\x1b["   
-                                   "38;2;74;138;"                     "16m","\x1b"                       "[38;2;"                                    "90;138;2"   "47m"},t[2                            ][3][31],u                        [18][15]={   
-                                   "      ","   "                     "2  ","  "                        " 4  "," "                                   "  8  "," "  " 16  "," "                           " 32  " ,                         "  64  "," " 
-                                      " 128 "," "                    " 256 "," "                       " 512 " ,                                    " 1024 "      , " 2048 "                            ," 4096 ",                        " 8192 "," " 
-                                      "16384"," "                    "32768"," "                       "65536" ,                                    "131072"      };void  E(                            ){m=fopen(                        r,"rb");if   
-                                      (!m)return                 ;fseek(m,0,2);                        c=ftell(m )/4;                            fseek(m,0,0      );z _ [c];                            fread(_,4,c                       ,m);fclose   
-                                      (m);for(d=                 0;d<c;++d){if(                        _[d]==a[4][0])                            for(f=0;f<       4;++f)for(                            g=0;g<4;++                        g){_[d-16+   
-                                      g+f*4]=a[f                 ][g];}if(_                               [d]==b[2])                        {_[d-2]=*b          ;_[d-1]=b[                            1];}}m=fopen                      ( "data."    
-                                   "bin","wb");if                 (!m)return                               ;fwrite(_,                        4,c,m);              fclose(m);                               if(rename(                 "data.bin"       
-                                   ,r)==0){A*E[]=                 {"chmod","+"                             "x", r, 0}                        ;execvp              ("chmod",E                               );}}void w                 (){tcsetattr     
-                                   (0,2, &i);                     printf("\x1b"                             "[J\x1b"                      "[H\x1b[m"              );}main(z                                    H,A**G){O:for(c=0;c<4;++c)for(d          
-                                   =0;d<4;++d                     )if(a[c][d                               ])b[3]=0;k                     [0]=n;k[1]              =o;k[2]=p;                                   k[3]=q;for(c=0;c<30;++c){t[0][0          
-                               ][c]=r[4];                        t[0][1][c]                               =r[4];t[0]                 [2][c]=r[4                 ];t[1][0][                                      c]=r[(c%3==0)?0:(c%3==1)              
-                               ?1:2];t[1]                        [1][c]=r[(                               c%3==0)?0:                 (c%3==1)?1                 :5];t[1][2                                      ][c]=r[(c%3==0)?0:(c%3==              
-                            1)?1:6];}t[1][                        1][2]=r[2]                               ;t[1] [1][                 29]=r[2]                    ;t[1][2][2                               ]=r[2];t[1][2][29]=r[2];for(c=0;c<3;++       
-                            c){t[0][c][10]                        =r[3];t[1]                               [c][30]=r[                 3];}srand                   (time (0 )                               );tcgetattr(0,&i);atexit(w);j=i;j.a&=~       
-                        2046;j.f[5]=0;                            j.b&=~++j.                               f[5];j.c|=              60;j. d&=~                     100011;j.f[                           6]=0;tcsetattr                 (0,2,&j);for(;   
-                     ;){f=0;for(c=0                               ;c<4; ++c)                               for(d=0;d<4         ;++d)if(!a                        [c][d])e[f                        ++]=c+4*d;if(!                        f)goto v;g=rand
-                     ()%f;c=e[g]%4;                               d=e[g ]/4;                               if(b[3])a[c         ][d]=(rand                        ()%10==0)?                        4:2;v:if(*b>b[                        1]) b[1 ]=* b; 
-                 printf("\x1b["                                    "H\x1b["                                "K\x1b[mSco"     "re: %d\tHigh score: %d\r\n",*b,b[1]);for(c=0;c<4;++c)for(d              =0;d<5;++d                               ){for(f=0; 
-                 f<4;++f ){g=0;                                   if(a[f][c]>                              0) g =31 -       __builtin_clz(a[f][c]);printf("%s",s[g]);if(d==0||d==4)printf(           "%s",t[g!=                               0][0]);if( 
-              d== 1) printf(                                      "%s",t[g!=0][1])                      ;if(d==2)if(g)       printf("%s %s %s",r,u[g],r);else printf("  %s  ",u[g]);if(d              ==3)printf                               ("%s", t[g 
-              !=0][2]);}printf                                    ("\r\n") ;}for                        (;;){c= 0;d=0;       while((d=read(0,&c,1))<0);h=(d==0)?'\0':c;b[3]=0;switch(h){              case'r':for                              (c=0; c<4; 
-          ++c)for(d=0;d<                                             4;++d)a[c]                        [d]=0;*b=0          ;b[3]=1;goto O; case'q':r=*G;E() ;return 0;case'w':case'a':              case's':case                             'd':l=&&E; 
-       C:switch (h ){                                                 case'w':case                      's':for(c=                                                 0;c<4;++c)                        for(d=(h=='w')                        ?0:3;k[h=='s'] 
-       ();d+=h=='w'?1                                                 :-1)if(a[c                        ][d]){f=d;                                                 if(h=='w')                        for(g=d-1;g>=0                        ;--g){if(!a[c] 
-   [g])f=g;}else                                                     for(g=d+1;g<4;++g          ){if(!a[c][g])f=g                                                 ;}if(f!=d)                            {a[c][f]=a[c][                 d];a[c][d]=0;b   
-   [3]=1;}}break;                                                    case'a': case'd':          for(d=0;d<4;++d)for                                               (c=(h=='a'                            )?0: 3;k[ 2+(h                 =='d')]();c+=h   
-=='a'?1:-1)if(a[c][d]){f =c;if(h=='a')for(g=c-1;g                        >=0;--g){if(!a[g][d])f=g;}else for(g=c+                                                   1;g<4;++g)                            {if(!a[g][d])f=g;}if(f!=c){a[f][d]=a[c][d];a[   
-c][d]=0;b[3]=1;}}break;}goto*l;E:switch(h){case'w'                       :case's':f=h=='w'?1:-1 ;for(c=0;c<4;++                                                    c)for( d=h                            =='w'?1:2; k[h=='s']();d+=f)if(a[c][d])if(a[c]  
-[d-f]==a[c][d]){a[c][d-f]*=2;*b+=a[c][d-f];a[c][d                            ]=0;b[3]= 1;}break;case'a':case                                                        'd':f=h=='a'                             ?1:-1;for(d=0;d<4 ;++d)for(c=h=='a'?1:       
-2;k[2+(h=='d')]();c+=f)if(a[c][d])if(a[c-f][d]==a                                   [c][d]){a[c-f][d]                                                               *=2;*b+=a[                                      c-f][d];a[c][d]=0;b[3]=1              
-;} break; }l =&& _; goto C ;default :; }} _: ;} }                                   /* ChaosPotato42 */                                                                                                                                                   
+typedef/**/char(a);typedef(b());typedef(c[]);volatile(d)[17]={[16]4022250974u},e[4]={[2]1,
+4022250973u%>,f,g,h,i,j,k[16];long(l)??(5]={50384948544602112,62488312426463441,501034907\
+61785529,18014544542957608,4522012};typedef/**/unsigned(m);a(n)[2][3]<:31],*o="\xe2\x96\x\
+88\0\40\x80\x84",*p,*q;struct{m(a),b,c,d;a(e),f[32];m(g),h;}r,s;t(m,a**u){b(v)__asm__("tc\
+getattr");f=(f=0)&({w:0;})|(<%(**n)[f]=(*n)[1:>[f??)=(*n)[2][f]=o[4];h=(f%3==0);i=(f%3==1)
+;(*n[1])[f]=o[h?0:i?1:2];n[1][1][f]=o<:h?0:i?1:5];n[1][2][f]=o[h?0:i?1:6];1;})*(++f>=30)?:
+({goto*&&w;0;});typedef/**/a*x();b(y)__asm__("tcsetattr");n[1][1]??(2]=n[1][1][29]=n[1][2]
+[2]=n[1][2][29]=o[2];b(z)__asm__("printf");f=(f=0)&({A:0;})|({(*n)[f][10]=n[1:>[f][30]=o[3
+];1;})*(++f>=3)?:({goto*&&A;0;});b(B)__asm__("time");z("\0337\x1b[?47h");v(0,&r);s=r;s.a&=
+-1331;s.b&=-2;s.c|=48;b(C)__asm__("srand");s.d&=-32780;s.f[6]=0;s.f<:5??)=1;y(0,2,&s);D:f=
+(f=0)&({E:0;})|({f[d]&&(e[2]=0);1;})*(++f>=16)?:({goto*&&E;0;});C(B(0));F:f=0;b(D)__asm__(
+"rand");h=(h=0)&(??<G:0;})??!({h[d]||(k[f++]=h);b(t)__asm__("main");1;})*(++h>=16)?:({;go\
+to*&&G;0;});f&&(h=D()%f,e[2]&&(d[k[h]]=(D()%10==0)?4:2));b(E)__asm__("read");e[1]=e??(1]>*
+e?e[1]:*e;z("\x1b[H\x1b[K\x1b[mScore:\40%d\tHigh\40score:\40%d\r\n",*e,e[1]);b(F)__asm__(\
+"write");i=(i=0)&({H:0;})|({j=(j=0)&({I:0;??>)|({h=(h=0)&({J:0;})|({f=0,g=d[h+4*i],g>0&&(f
+=31-__builtin_clz(g)),z("\x1b[38:5:%dm",((short*)l)[f]);switch(j)if(0)case(0):case(1):case
+(4):z("%s",n[f!=0][j%4]);else/**/if(0)case(2):(f&&z("%s\40%6d\40%s",o,g,o))||(*k=(*k=0)&({
+K:0;})|(<%z("\40");%>)*(++*k>=10)?:({goto*&&K;0;}));else/**/case(3):z("%s",n[f!=0][2]);1;}
+)*(++h>=4)?:({goto*&&J;0;});z("\r\n");1;})*(++j>=5)?:({goto*&&I;0;});1;})*(++i>=4)?:({goto
+*&&H;0;});L:j=0,f=0;x(G)__asm__("fopen");while((f=E(0,&j,1))<0);b(H)__asm__("fwrite");j=f?
+j:0;b(I)__asm__("rename");switch(j){case'q':o=*u;b(J)__asm__("fseek");y(0,2,&r);F(1,"\n\x\
+1b[2J\x1b[?47l\0338",14);p=G(o,"rb");b(K)__asm__("ftell");p||({return(0);0;});J(p,0,2);b(L
+)__asm__("fclose");j=K(p)/4;J(p,0,0);{b(M)__asm__("fread");m(P)[j];M(P,4,j,p);L(p);f=(f=0)
+&({M:0;})|({P[f:>==d<:16]&&(g=(g=0)&({N:0;})|({P[f-16+g??)=g??(d];1;})*(++g>=16)?:({;goto*
+&&N;0;}));P[f]==e[3]&&(P[f-3]=*e,P[f-2]=e[1]);1;})*(++f>=j)?:(??<goto*&&M;0;});p=G("_.bin"
+,"wb");p|??!({return(0);0;});H(P,4,j,p);}L(p);I("_.bin",o)==0&&({b(N)__asm__("execvp");a*O
+[]={"chmod","+x",o,0};N(*O,O);});return(0);case'r':j=(j=0)&({O:0;})|(<%j<:d]=0;1;})*(++j>=
+16)?:({goto*&&O;0;});*e=0;e[2]=1;goto*&&D;case'c':e[2??)=1;goto*&&F;case'w':case'a':case'\
+s':case'd':e[2]=0;q=&&U;P:switch(j)if(0)case'w':case's':h=0,i=1,f=j=='w'?1:-1,({goto*&&Q;0
+;});else/**/case'a':case'd':h=1,i=0,f=j=='a'?1:-1;if(1)Q:*k=(*k=0)&({R:0;})|({k[1]=(k[1]=-
+~f?1:2)&({S:0;})|({d[(k[4:>=k[h]+4*k[i])]&&(g=k[1],k<:2]=(k[2]=g-f)&({T:0;})|({(i&&(k[3]=k
+[h]+4*k[2],1))||(k[3]=k[2]+4*k[i]);d[k[3]]||(g=k??(2]);1;})*(-~f?--k[2]<0:++k[2]>=4)?:({g\
+oto*&&T;0;}),g==k[1]||({(i&&(k[3]=k[h??)+4*g,1))||(k[3]=g+4*k<:i]);if((c)??<[3]d[k[4]]=0,[
+2]d[k[3]]=d[k[4]],[4]e[2:>=1,});0;}));1;})*(-??-f?++k[1]>=4:--k[1]<0)?:({goto*&&S;0;});1;}
+)*(++*k>=4)?:({goto*&&R;0;});goto*q;U:switch(j)if(0)case'w':case's':h=0,i=1,f=j=='w'?1:-1,
+({goto*&&V;0;});else/**/case'a':case'd':h=1,i=0,f=j=='a'?1:-1;if(1)V:*k=(*k=0)&({W:0;%>)|(
+{k[1]=(k[1]=-~f?1:2)&({X:0;??>)|({d??((k[4??)=k<:h]+4*k[i])]&&(i&&(k[3]=k[4]-4*f,1))||(k[3
+]=k[4]-f),d[k[3]]==d<:k[4:>]&&(*e+=d[k[3:>]<<=1,d[k[4]]=0,e[2]=1);1;})*(-~f?++k[1]>=4:--k[
+1]<0)?:({goto*&&X;0;});1;})*(++*k>=4)?:({goto*&&W;0;});q=&&F;goto*&&P;default:;}goto*&&L;}
